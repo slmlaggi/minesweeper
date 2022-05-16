@@ -1,0 +1,9 @@
+import random as rand
+
+
+WIDTH = 1440
+HEIGHT = 720
+GRIDSIZE = 12
+CELLCOUNT = GRIDSIZE ** 2
+MINEDENSITY = 21.727
+MINESCOUNT = int(CELLCOUNT * MINEDENSITY // 100 + - rand.randint(2))
