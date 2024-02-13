@@ -39,7 +39,7 @@ gameTitle = Label(
     bg='mediumseagreen',
     fg='#5c2b22',
     text='Minesweeper',
-    font=('Lato', 42, 'Bold')
+    font=('Lato', 42, 'bold')
 )
 
 gameTitle.place(
